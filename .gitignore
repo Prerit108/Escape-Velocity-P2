@@ -1,8 +1,46 @@
+# Environment & Secrets
 .env
+.env.*
+*.env
+
+# Data & Knowledge Base (Local large assets)
 data/
 41597_2016_BFsdata201635_MOESM102_ESM/
 chroma_clinical_db/
+*.sqlite3
+*.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Local Notebook checkpoints
 notebook1.ipynb
-.vscode
-__pycache__
+.ipynb_checkpoints/
 *.pyc
