@@ -4,3 +4,5 @@ data/
 chroma_clinical_db/
 notebook1.ipynb
 .vscode
+__pycache__
+*.pyc
